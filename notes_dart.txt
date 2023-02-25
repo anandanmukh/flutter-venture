@@ -1,0 +1,22 @@
+1. Dart Language:
+-- Focued on fronted development (mobile, web apps) UI development
+-- Object Oriented & Strongly typed
+-- mixture of JS, Java & C#
+-- use of async and await for asynchronous programming
+-- dart is one of very few languages that is well suited to being compiled both AOT (ahead of time) and JIT (Just in Time), supporting both kinds of compilation provdides significant benefits for both performance and development (Hot Reload)
+-- It can compiled in JS, so it can be executed by browsers
+-- Flutter doesn't split layout betweeb your program and additional templating or layout language like JSX or XML, nor does it separate visual layout tools
+
+2. https://pub.dev/
+
+3. Lists:
+-- dart list is similar to an array, which is the orderder collection of the objects
+-- the array is the most popular and commonly used collection in any other programming language
+-- syntax; var list1 = [10, 20, 30]
+
+4. Maps & Hash Maps:
+-- Dictionary-like data types that exist in key-value form (lock-key)
+-- There is no restriction on the type of data that goes in a map data type
+-- maps are very flexible and can mutate their size based on the requirements
+-- it is important to note that all locks (keys) need to be unique 
+-- syntax; var map_name = {key1: value1, key2:value2 ....}

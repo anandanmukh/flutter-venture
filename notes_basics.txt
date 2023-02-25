@@ -1,0 +1,74 @@
+flutter: a 'tool' that allows you to build native cross-platform (android, ios, web) apps with a single codebase. 
+
+Flutter is a framework, not a language. It's written in Dart, which is a language that compiles to native code.
+
+cross platform is also known as multi-platform, or hybrid or platform independent.
+
+Native: a native app is an app that is written in the language of the platform it's running on. For example, an android app is written in Java, and an iOS app is written in Swift or Objective-C.
+
+Native apps are usually faster than cross-platform apps, but they are also more expensive to develop and maintain.
+
+An application developed exclusively for a single platform using a native-to-the-operating-system language is a Native App.
+
+Benifits of Flutter:
+1. same ui and business logic for both android and ios
+2. reduced development time
+3. the potential ability to go beyond mobile
+4. increaser time-to-market speed
+5. custom, animated UI of any complexity available
+6. similar performance to native apps
+7. own rendering engine
+8. hot reload
+9. easy to learn
+
+Flutter architecture:
+1. Flutter is a framework, not a language
+2. Flutter is written in Dart
+3. UI as a Code: widget tree
+4. embrace the platform differences
+5. One codebase
+
+Flutter Generated Files and Folders:
+1. .idea: 
+-- The .idea folder containcs your code editor's project related settings specific files. 
+-- No need to make any manual changes here
+2. android: 
+-- The android folder contains the Android project specific settings, resources and code.
+-- If you need to write any platform specific code, you can do it here.
+3. build:
+-- The build folder contains the output generated when you build or run the flutter project.
+-- You will find all the release related files/folders like apks and app bundles in here
+-- Release mode (for uploading to the playstore) & Debug mode 
+4. ios:
+-- Similar to android folder, the ios folder contains ios specific settings, resources and code.
+-- You will make the platform specific code or changes here.
+5. lib: (library folder) ### important
+-- The lib folder is main folder where you will write all the Flutter app related codes.
+-- Initially it will contain just one single file main.dart which has the entry point for a Flutter app.
+6. test:
+-- The test folder is set to contain any testing related codes that you write.
+-- If you decide to write tests/test cases, you will be adding code in here
+7. .gitignore: (VCS)
+-- The .gitignore file is used to tell git which files or folders to ignore when you commit your code to a git repository.
+-- This is a git specific file.
+-- You can adjust the .gitignore file to include/exclude any files/folders as you need.
+8. .metadata:
+-- as the name suggests, the .metadata file contains Flutter project related metadata that FLutter tool uses.
+-- You should not make any manual changes to this file.
+9. .packages:
+-- a flutter code is composed of numerous libraries and packages.
+-- some packages are pre-installed with Flutter while others are downloaded during development.
+-- The .packages holds the paths to each of the libraries/packages in your local computer
+-- You do not need to make any changes to this file
+10. pubspec.lock:
+-- This file is a helper file created next to pubspec.yaml file.
+-- It lists the specific versions of each dependency that packages use in your app and ensures the version stays consistent across different developer's machines
+11. pubspec.yaml: ## important
+-- This file contains Flutter app specific metadata and configurations.
+-- You can configure dependencies such as external packages, image assets, font files, app version etc with the help of this file
+-- You will often make changes to this file to add/remove dependencies, change app version etc.
+12. README.md:
+-- The README.md file is a markdown file that contains the description of the project in git repository
+-- You can write project specific things like what your project does of how to use certain libraries in the file
+
+
